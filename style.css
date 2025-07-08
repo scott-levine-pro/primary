@@ -20,7 +20,7 @@ a:hover {
     text-decoration: underline;
 }
 
-iframe {
+iframeTest {
     border: black 1px solid;
     float: center;
     width: 100%;
