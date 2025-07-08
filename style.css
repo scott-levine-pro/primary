@@ -6,12 +6,19 @@ body {
     background-color: forestgreen;
 }
 
-frame {
+.frame {
     display: block;
     margin: 0 auto;
     padding: 20px;
     background-color: #333;
     border-radius: 10px;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 
