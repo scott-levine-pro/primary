@@ -20,9 +20,9 @@ a:hover {
     text-decoration: underline;
 }
 
-iframeTest {
+iframe {
     border: black 1px solid;
-    float: center;
     width: 100%;
     height: 500px;
+    text-align: right;
 }
