@@ -19,3 +19,10 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+iframe {
+    border: black 1px solid;
+    float: center;
+    width: 100%;
+    height: 500px;
+}
