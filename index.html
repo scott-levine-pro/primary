@@ -6,16 +6,15 @@
 </head>
 <body>
     <div class="frame">
-        <h1>This is a test frame</h1>
-        <h2>I need to add buttons for links</h2>
+        <h1>Look! I made a cool frame that persists across pages!</h1>
+        <button onclick="document.querySelector('iframe').src='main.html'">Main</button>
+        <button onclick="document.querySelector('iframe').src='blog.html'">Blog</button>
+        <button onclick="document.querySelector('iframe').src='musings.html'">Musings</button>
     </div>
     <div class="display">
         <iframe src="main.html" title="PrimaryIframe"></iframe>
         <h2>To Do List</h2>
         <ul>
-            <li>Make a button to go to the blog</li>
-            <li>Make a button to go to the musings</li>
-            <li>Make a button to go home</li>
             <li>Make the background better</li>
             <li>clean up borders</li>
     </div>
@@ -23,6 +22,6 @@
     <p>My name is Scott, I am a struggling <s>artist</s> analyst. SEND ME DATA TO ANALYZE<br>In the meantime, I will be building out data here and blogging and stuff.</p>
     <p>Here is my <a href="blog.html">blog</a>. Check it out!</p>
     <p>Here are some <a href="musings.html">musings</a>. Thought provoking!</p> -->
-    <p>v20250708.12</p>
+    <p>v20251209.01</p>
 </body>
 </html>
