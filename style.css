@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 10px;
     padding: 10px;
-    background-color: forestgreen;
+    background-color: darkcyan;
 }
 
 .frame {
@@ -24,6 +24,7 @@ body {
     align-items: center;
     height: 100vh;
     visibility: false;
+    color: whitesmoke;
 }
 
 
@@ -53,7 +54,7 @@ button {
     display: center;
     margin: 5px;
     padding: 10px 15px;
-    background-color: #1f00cc;
+    background-color: #166ef1;
     color: white;
     border: none;
     border-radius: 5px;
